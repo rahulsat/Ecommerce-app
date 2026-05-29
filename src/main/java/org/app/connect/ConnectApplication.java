@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ConnectApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(ConnectApplication.class, args);
+        System.out.println("Application is running");
     }
 
 }
